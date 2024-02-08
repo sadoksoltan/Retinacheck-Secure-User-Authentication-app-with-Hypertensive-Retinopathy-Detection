@@ -1,2 +1,2 @@
 # Retinacheck-Secure-User-Authentication-app-with-Hypertensive-Retinopathy-Detection
-Authenticate users, activate accounts via email, classify uploaded images, and generate result sentences,Built with Django for the backend and frontend.
+In previous repositories, we developed a retinal fade image segmentation algorithm and a hypertensive retinopathy detection algorithm using AVR. Now we will create an application that has a complete authentication and account activation system via email. We will call on the model we imported to allow the authenticated user to upload an image and get an accurate classification. Then we will generate a result sentence to display the results to the user.
