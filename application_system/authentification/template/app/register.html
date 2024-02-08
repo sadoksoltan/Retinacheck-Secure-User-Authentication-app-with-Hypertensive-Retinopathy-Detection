@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}  
+<div>
+  <link href="{% static 'css/index.css'%}" rel="stylesheet" />
+  <div class="desktop1-container">
+    <div class="desktop1-desktop1">
+      <img
+      src="{% static 'images/v88.png'%}"
+      alt="IMAGE3509230841764089884255512517506835589872766n18933"
+      class="desktop1-image3509230841764089884255512517506835589872766n1"
+    />
+    <img
+        src="{% static 'images/v9.png'%}"
+        alt="Ellipse11034"
+        class="desktop1-ellipse1"
+      />
+      <img
+        src="{% static 'images/v9.png'%}"
+        alt="Ellipse41221"
+        class="desktop1-ellipse4"
+      />
+      <img
+        src="{% static 'images/v9.png'%}"
+        alt="Ellipse61221"
+        class="desktop1-ellipse6"
+      />
+      <img
+        src="{% static 'images/v9.png'%}"
+        alt="Ellipse21035"
+        class="desktop1-ellipse2"
+      />
+      <img
+        src="{% static 'images/v9.png'%}"
+        alt="Ellipse31221"
+        class="desktop1-ellipse3"
+      />
+      <img
+        src="{% static 'images/v9.png'%}"
+        alt="Ellipse51221"
+        class="desktop1-ellipse5"
+      />
+      <img
+        src="{% static 'images/vector.svg'%}"
+        alt="Vector1222"
+        class="desktop1-vector"
+      />
+      <img
+        src="{% static 'images/vector-5.svg'%}"
+        alt="Vector1222"
+        class="desktop1-vector1"
+      />
+      <img
+        src="{% static 'images/vector-5.svg'%}"
+        alt="Vector1232"
+        class="desktop1-vector2"
+      />
+      <img
+        src="{% static 'images/vector-4.svg'%}"
+        alt="Vector1232"
+        class="desktop1-vector3"
+      />
+      <img
+        src="{% static 'images/vector-3.svg'%}"
+        alt="Vector1233"
+        class="desktop1-vector4"
+      />
+      <img
+        src="{% static 'images/vector-2.svg'%}"
+        alt="Vector1233"
+        class="desktop1-vector5"
+      />
+    <div class="rectangle7"></div>   
+    <div class="desktop1-rectangle5"></div>  
+    <div class="desktop1-rectangle2"></div>  
+    <div class="desktop1-rectangle3"></div>  
+    <div class="desktop1-rectangle4"></div>  
+    <div class="desktop1-rectangle6"></div>  
+    <a href='login.html' style=' top: 590px;
+    left: 180px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;'>Se connecter</a>
+    <form method="post" action="{% url 'register' %}">
+      {% csrf_token %}
+    <input class="desktop1-text02222" type="text" id="username" name="username" placeholder="Nom d&apos;utilisateur" required>
+    <input class="desktop1-text140" type="text" id="firstname" name="firstname" placeholder="Prenom" required>
+    <input class="desktop1-text044" type="text" id="lastname" name="lastname" placeholder="Nom de famille" required>
+    <input class="desktop1-text088" type="text" id="email" name="email" placeholder="E-mail" required>
+    <input class="desktop1-text100" type="password" id="password" name="password" placeholder="Mot de passe" required>
+    <input class="desktop1-text122" type="password" id="password2" name="password2" placeholder="Confirmer" required>
+    <div class="button-container12">
+      {% for message in messages %}
+      <strong><i style="color:red;position: absolute;top: 620px;left: 95px;">{{message}}</i></strong>
+      {% endfor %}  
+      <button type="submit" class="desktop1-text066" >S'inscrire</button>
+    </div>
+    </form>
+
+  </div>  
+</div>
+{%endblock%}
+

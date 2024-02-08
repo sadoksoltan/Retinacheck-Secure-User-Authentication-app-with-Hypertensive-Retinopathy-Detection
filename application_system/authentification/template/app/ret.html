@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+{% if user.is_authenticated %}
+<div>
+  <link href="{% static 'css/index.css'%}" rel="stylesheet" />
+  <div class="desktop1-container">
+    <div class="desktop1-desktop1">
+      <img
+      src="{% static 'images/v88.png'%}"
+      alt="IMAGE3509230841764089884255512517506835589872766n18933"
+      class="desktop1-image3509230841764089884255512517506835589872766n1"
+    />
+    <img
+        alt="Rectangle41294"
+        src={{filePathName}}
+        class="desktop1-rectangle45"
+      />
+
+      <div class="button-container">
+        <form method="post" enctype="multipart/form-data" action="predictImage">
+           {% csrf_token %}
+        <input class="desktop1-text9999" type="submit" value="Envoyer" >
+        <input class="desktop1-text021" name="filePath" type="file"><br><br> 
+        <div class="desktop1-text021">Charger Image</div>
+        <span class="desktop1-text0666"><span>Resultat: </span></span>
+        <span class="desktop1-text2001"><span>{{predictedLabel}}</span></span>
+        </form>
+        <form method="post" action="{% url 'logout_view' %}">
+           {% csrf_token %}
+           <button class="desktop1-text0444" type="submit">Déconnexion</button>
+         </form>
+       </div>
+
+
+  </div>  
+</div>
+{% endif %}   
+{% endblock %}
+   

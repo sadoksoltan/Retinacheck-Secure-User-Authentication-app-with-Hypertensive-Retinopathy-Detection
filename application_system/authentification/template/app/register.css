@@ -1,0 +1,238 @@
+.frame1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+input[type="text"], input[type="password"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+  color:#434BE7;
+}
+.button-container {
+  background-color: #000A2E;
+}
+.button-container button {
+  background-color: #000A2E;
+  width: 300px;
+  height: 70px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+}
+.frame1-frame1 {
+  gap: 10px;
+  width: 100%;
+  height: 819px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame1-rectangle4 {
+  top: 0px;
+  left: 0px;
+  width: 1487px;
+  height: 819px;
+  position: absolute;
+}
+.frame1-rectangle2 {
+  top: 662px;
+  left: 63px;
+  width: 358px;
+  height: 72px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.frame1-text {
+  top: 677px;
+  left: 120px;
+  color: rgba(67, 75, 231, 1);
+  width: 238px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-v31 {
+  top: 345.06884765625px;
+  left: 611px;
+  width: 264px;
+  height: 33px;
+  position: absolute;
+  transform: rotate(-3.06deg);
+}
+.frame1-v41 {
+  top: 205.900634765625px;
+  left: 688px;
+  width: 105px;
+  height: 89px;
+  position: absolute;
+}
+.frame1-line1 {
+  top: 580px;
+  left: 50px;
+  width: 382px;
+  height: 1.35px;
+  position: absolute;
+}
+.frame1-line3 {
+  top: 482px;
+  left: 50px;
+  width: 382px;
+  height: 1.35px;
+  position: absolute;
+}
+.frame1-line4 {
+  top: 286px;
+  left: 50px;
+  width: 382px;
+  height: 1.35px;
+  position: absolute;
+}
+.frame1-line7 {
+  top: 384px;
+  left: 50px;
+  width: 382px;
+  height: 1.35px;
+  position: absolute;
+}
+.frame1-line5 {
+  top: 188px;
+  left: 50px;
+  width: 382px;
+  height: 1.35px;
+  position: absolute;
+}
+.frame1-line6 {
+  top: 90px;
+  left: 50px;
+  width: 382px;
+  height: 1.35px;
+  position: absolute;
+}
+.frame1-text05 {
+  top: 523px;
+  left: 120px;
+  color: rgba(67, 75, 231, 1);
+  width: 431px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text07 {
+  top: 425px;
+  left: 120px;
+  color: rgba(67, 75, 231, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text09 {
+  top: 229px;
+  left: 120px;
+  color: rgba(67, 75, 231, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text11 {
+  top: 327px;
+  left: 120px;
+  color: rgba(67, 75, 231, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text13 {
+  top: 130px;
+  left: 120px;
+  color: rgba(67, 75, 231, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text15 {
+  top: 32px;
+  left: 120px;
+  color: rgba(67, 75, 231, 1);
+  width: 312px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.message{
+  position: absolute;
+  top: 750px;
+  left: 120px;
+  margin: auto;
+  display: block;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  z-index: 9999;
+}

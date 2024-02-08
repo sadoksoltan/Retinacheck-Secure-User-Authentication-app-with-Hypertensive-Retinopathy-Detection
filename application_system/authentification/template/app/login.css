@@ -1,0 +1,123 @@
+.frame1-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  input[type="text"], input[type="password"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+  input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color:#434BE7;
+  }
+  .button-container {
+    background-color: #000A2E;
+  }
+  .button-container button {
+    background-color: #000A2E;
+    width: 300px;
+    height: 70px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+  }
+  .frame1-frame1 {
+    gap: 10px;
+    width: 100%;
+    height: 819px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .frame1-rectangle4 {
+    top: 0px;
+    left: 0px;
+    width: 1487px;
+    height: 819px;
+    position: absolute;
+  }
+  .frame1-text {
+    top: 595px;
+    left: 112px;
+    color: rgba(67, 75, 231, 1);
+    width: 238px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame1-v31 {
+    top: 345.06884765625px;
+    left: 611px;
+    width: 264px;
+    height: 33px;
+    position: absolute;
+    transform: rotate(-3.06deg);
+  }
+  .frame1-v41 {
+    top: 205.900634765625px;
+    left: 688px;
+    width: 105px;
+    height: 89px;
+    position: absolute;
+  }
+  .frame1-line1 {
+    top: 355px;
+    left: 65px;
+    width: 358px;
+    height: 1.35px;
+    position: absolute;
+  }
+  .frame1-line2 {
+    top: 473px;
+    left: 65px;
+    width: 358px;
+    height: 1.35px;
+    position: absolute;
+  }
+  .frame1-text2 {
+    top: 305px;
+    left: 120px;
+    color: rgba(67, 75, 231, 1);
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .frame1-text4 {
+    top: 423px;
+    left: 120px;
+    color: rgba(67, 75, 231, 1);
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

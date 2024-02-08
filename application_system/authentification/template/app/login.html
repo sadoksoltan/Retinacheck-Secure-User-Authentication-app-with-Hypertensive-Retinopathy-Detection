@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{%block content%}
+{% load static %}
+<div>
+    <link href="{% static 'css/index.css'%}" rel="stylesheet" />
+    <div class="desktop1-container">
+      <div class="desktop1-desktop1">
+        <img
+        src="{% static 'images/bk3.png'%}"
+        alt="IMAGE3509230841764089884255512517506835589872766n18933"
+        class="desktop1-image3509230841764089884255512517506835589872766n1"
+      />
+      <img
+      src="{% static 'images/v9.png'%}"
+      alt="Ellipse11034"
+      class="desktop1-ellipse9"
+    />
+    <img
+      src="{% static 'images/v9.png'%}"
+      alt="Ellipse21035"
+      class="desktop1-ellipse10"
+    />
+    <img
+        src="{% static 'images/vector.svg'%}"
+        alt="Vector1039"
+        class="desktop1-ve"
+      />
+      <img
+        src="{% static 'images/vector-1.svg'%}"
+        alt="Vector1031"
+        class="desktop1-vec"
+      />
+      
+      </div>
+      <div class="desktop1-"></div>    
+      <div class="desktop1-r"></div>   
+      <form method="post" action="{% url 'login_view' %}">
+        {% csrf_token %}
+      <input class="desktop1-text02" type="text" id="username" name="username" placeholder="Nom d&apos;utilisateur" required>
+      <input class="desktop1-text04" type="password" id="password" name="password" placeholder="Mot de passe" required>
+      <div class="button-container1">
+        {% for message in messages %}
+         <strong><i style="color:red;position: absolute;top: 550px;left: 112px;">{{message}}</i></strong>
+        {% endfor %} 
+        <button type="submit" class="desktop1-text">Se connecter</button>
+        <a href="{% url 'forget_password'%}" style='top: 419px;
+        left: 167px;
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        position: absolute;
+        font-size: 18px;
+        font-style: Medium;
+        text-align: left;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;'>Mot de passe oublié ?</a>
+        <a href='register.html' style='top: 506px;
+        left: 180px;
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        position: absolute;
+        font-size: 18px;
+        font-style: Medium;
+        text-align: left;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;'>S'inscrire</a>
+      </div>
+      </form>
+    </div>  
+</div>
+{%endblock%}

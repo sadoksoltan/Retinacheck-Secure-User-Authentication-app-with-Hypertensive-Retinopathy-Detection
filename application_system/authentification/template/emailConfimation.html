@@ -1,0 +1,11 @@
+{% autoescape off %}
+
+Bienvenue sur l'application Sadok
+
+Bonjour {{ name }}
+
+Veuillez confirmer votre adresse e-mail en cliquant sur le lien ci-dessous :
+
+lien de confirmation : https//{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+{% endautoescape %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div>
+        <link href="{% static 'css/index.css'%}" rel="stylesheet" />
+        <div class="desktop1-container">
+          <div class="desktop1-desktop1">
+            <img
+            src="{% static 'images/bk3.png'%}"
+            alt="IMAGE3509230841764089884255512517506835589872766n18933"
+            class="desktop1-image3509230841764089884255512517506835589872766n1"
+            />
+          
+            <div class="button-container">
+              {% for message in messages %}
+              <strong><i style="color:red;position: absolute;top: 600px;left: 122px;">{{message}}</i></strong>
+              {% endfor %} 
+              <button type="submit" class="desktop1-text2" onclick="window.location.href='register.html'">S'inscrire</button>
+              <button type="submit" class="desktop1-text" onclick="window.location.href='login.html'">Se connecter</button>
+            </div>
+          </div>
+          
+        </div>
+</div>  
+{% endblock %}
