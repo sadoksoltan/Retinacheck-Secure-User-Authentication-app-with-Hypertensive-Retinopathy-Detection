@@ -3,3 +3,6 @@ In previous repositories, we developed a retinal fade image segmentation algorit
 
 -->To open this project on localhost, you first need to activate a virtual environment with Django.
 
+
+-->Below, you will find some screenshots showcasing the interfaces.
+
