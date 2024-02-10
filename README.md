@@ -6,5 +6,5 @@ In previous repositories, we developed a retinal fade image segmentation algorit
 
 
 
--->Below, you will find some screenshots showcasing the interfaces.
+-->You will find some screenshots showcasing the interfaces.
 
