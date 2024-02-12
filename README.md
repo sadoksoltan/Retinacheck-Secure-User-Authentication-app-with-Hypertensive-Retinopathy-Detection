@@ -4,10 +4,16 @@ In previous repositories, we developed a retinal fade image segmentation algorit
 -->To open this project on localhost, you first need to activate a virtual environment with Django:
 
 1->cd application_system
+
 2->pip install virtualenv
+
 3->virtualenv log
+
 4->log/Scripts/activate   (<--with windows)         source log/bin/activate     (<--with linux)
+
 5->cd authentification 
+
 6->python manage.py runserver
+
 -->You will find some screenshots showcasing the interfaces.
 
