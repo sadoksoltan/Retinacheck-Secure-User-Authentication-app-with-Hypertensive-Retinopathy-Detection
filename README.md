@@ -8,5 +8,6 @@ In previous repositories, we developed a retinal fade image segmentation algorit
 3->virtualenv log
 4->log/Scripts/activate   (<--with windows)         source log/bin/activate     (<--with linux)
 5->cd authentification 
+6->python manage.py runserver
 -->You will find some screenshots showcasing the interfaces.
 
