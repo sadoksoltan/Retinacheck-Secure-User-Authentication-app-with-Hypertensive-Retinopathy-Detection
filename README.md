@@ -7,6 +7,6 @@ In previous repositories, we developed a retinal fade image segmentation algorit
 2->pip install virtualenv
 3->virtualenv log
 4->log/Scripts/activate   (<--with windows)         source log/bin/activate     (<--with linux)
-
+5->cd authentification 
 -->You will find some screenshots showcasing the interfaces.
 
